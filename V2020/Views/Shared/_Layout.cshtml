@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vision 2020 - Nonprofit Fundraising</title>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:500,600,700,800,400,200,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,300,600,400' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="/assets/css/bevolnuteer.css">
+    <link rel="stylesheet" href="/assets/css/animate.css">
+    <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="boxed-version">
+    <div class="boxed">
+        <header class="site-header">
+            
+            <div class="main-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="logo">
+                                <a href="/"><img src="/assets/images/logo.gif" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6" style="top:19px;">
+                            <div class="donate-button wow shake"><a href="#donate-modal" data-toggle="modal" class="btn btn-default">Donate Now</a></div>
+                            @*<div class="col-md-8 left-header">
+                                <ul class="header-list">
+                                    <li><i class="fa fa-phone"></i>0432 148 061</li>
+                                    <li><i class="fa fa-envelope"></i> Vision 2020.au@gmail.com </li>
+
+                                </ul>
+                            </div>*@
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav id="site-nav" class="main-navigation nav-sticky">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul class="main-menu">
+                                <li class="active"><a href="/">Home</a></li>
+                                <li><a href="/AboutUs">Our mission </a></li>
+                                <li><a href="/OurProject">Projects </a></li>
+
+                                <li>
+                                    <a href="#">Make a difference </a>
+                                    <ul>
+                                        <li><a href="/Member">Become a Member</a></li>
+                                        <li><a href="/StartChapter">Start a chapter</a></li>
+                                        <li><a href="/Donate">Donate</a></li>
+                                        <li><a href="/Gift">Gift Check</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="/Events">Events</a>
+                                    <ul>
+                                        <li><a href="/Events">Past Events</a></li>
+                                        <li><a href="/RecentEvents">Upcoming Events</a></li>
+                                        <li><a href="/Gallery">Gallery</a></li>
+                                        <li>
+                                            <a href="/Events">News</a>
+                                        </li>
+                            </ul>
+                                </li>
+                              
+                                <li><a href="/Comittee">committee</a></li>
+                                <li><a href="/ContactUs">Contact us</a></li>
+                               
+                                    
+                                
+                                
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <nav id="responsive-menu"></nav>
+        </header>
+        <!--
+        #################################
+            - THEMEPUNCH BANNER -
+        #################################
+        -->
+      @RenderBody()
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12 widget">
+                        <h4 class="widget-title">Contact Us</h4>
+                        <span class="line-seperator"></span>
+                        
+                            <li><i class="fa fa-phone"></i>0432 148 061</li>
+                            <li><i class="fa fa-envelope"></i> Vision 2020.au@gmail.com </li>
+
+                        
+                    </div>
+
+                    @*<div class="col-md-4 col-sm-6 col-xs-12 widget">
+                        <h4 class="widget-title">SUBSCRIBE to US</h4>
+                        <span class="line-seperator"></span>
+                        
+                        <form method="get" id="subscribe-form" class="subscribe-form">
+                            <input type="text" class="subscribe-field" name="s" placeholder="Type Keywords..." value="" style=" border 2px solid #ffffff;">
+                            <button class="subscribe-submit" style=" border 2px solid #ffffff;">Submit</button>
+                        </form>
+                    </div>*@
+                    <div class="col-md-4 col-sm-6 col-xs-12 widget">
+                       
+                        @*<div class="header-social" style="margin-top:15px;">
+                            <a href="#" class="fa fa-facebook" style="font-size:20px;"></a>
+                           
+                        </div>*@
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 copyright-text">&copy; Copyright 2017. Designed by <a href="#">Legitsol</a></div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div id="donate-modal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Donation Form</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group pricing">
+                        <h6 class="modal-subtitle">How much would  you like to donate?</h6>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default active">$10</button>
+                            <button type="button" class="btn btn-default">$20</button>
+                            <button type="button" class="btn btn-default">$100</button>
+                            <button type="button" class="btn btn-default">$200</button>
+                            <button type="button" class="btn btn-default">$500</button>
+                            <input type="text" placeholder="Other Amount">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <h6 class="modal-subtitle">Personal Information</h6>
+                        <div class="row">
+                            <div class="col-sm-6 col-xs-12">
+                                <input type="text" id="name" placeholder="First Name">
+                            </div>
+                            <div class="col-sm-6 col-xs-12">
+                                <input type="text" id="name" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-xs-12">
+                                <input type="email" id="email" placeholder="Email">
+                            </div>
+                            <div class="col-sm-6 col-xs-12">
+                                <input type="tel" id="email" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-xs-12">
+                                <textarea id="message" placeholder="Address"></textarea>
+                            </div>
+                            <div class="col-sm-6 col-xs-12">
+                                <textarea id="additional" placeholder="Additional Notes"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-xs-12">
+                                <button type="button" class="btn btn-accent">Donate Now</input>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="go-top"><i class="fa fa-chevron-up"></i></a>
+
+    <script src="/assets/js/jquery-1.11.1.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+    <script src="/assets/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="/assets/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="/assets/js/plugins.js"></script>
+    <script src="/assets/js/bevolnuteer-custom.js"></script>
+
+</body>
+<!-- Mirrored from demo.esmeth.com/html/bevolunteer/boxed/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Mar 2017 12:27:25 GMT -->
+</html>
